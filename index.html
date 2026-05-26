@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Welcome to Glitz & Glow Studio, Jamshedpur's premier luxury salon. Experience bespoke hair couture, skin rejuvenation, and celebrity-grade bridal makeovers.">
+    <title>Glitz & Glow Studio — Luxury Salon in Jamshedpur</title>
+    <!-- Site Icon / Favicon -->
+    <link rel="icon" type="image/png" href="logo.png">
+    <!-- Google Fonts: Playfair Display for Serif Headings, Inter for clean body text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- 1. HEADER & NAVIGATION -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo-block">
+                <img src="logo.png" alt="Glitz &amp; Glow Studio Logo" class="logo-img">
+                <div class="brand-name">GLITZ &amp; GLOW STUDIO</div>
+            </div>
+            <button class="menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#bridal">Studio Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#faq">FAQ</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 2. HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content reveal-on-scroll">
+                <h1>Unveil Your Elegance</h1>
+                <p class="hero-sub">Step into a world of luxury. Experience bespoke hair styling, skin rejuvenation, and
+                    celebrity-grade bridal makeovers tailored just for you.</p>
+                <div class="hero-actions">
+                    <a href="#services" class="btn btn-primary">Explore Services</a>
+                    <a href="https://wa.me/911234567890?text=Hi%20Glitz%20%26%20Glow%20Studio,%20I%20want%20to%20book%20an%20appointment!"
+                        class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">Book on WhatsApp</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <!-- Placeholder for main hero image from Unsplash -->
+                <img src="https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&q=80&w=800"
+                    alt="Luxury salon workspace with elegant styling chairs and mirrors" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- BRANDS ROW -->
+    <section class="brands-row">
+        <div class="container">
+            <div class="brands-ribbon">
+                <span>M.A.C</span>
+                <span class="divider">|</span>
+                <span>KRYOLAN</span>
+                <span class="divider">|</span>
+                <span>L'ORÉAL PROFESSIONNEL</span>
+                <span class="divider">|</span>
+                <span>ESTÉE LAUDER</span>
+                <span class="divider">|</span>
+                <span>OLAPLEX</span>
+                <span class="divider"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PREMIUM SERVICE MENU SECTION -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-subtitle">Aesthetic Excellence</span>
+                <h2>Our Service Menu</h2>
+            </div>
+            <div class="menu-grid">
+                <!-- Category 1: Hair Couture -->
+                <div class="menu-category reveal-on-scroll">
+                    <h3 class="category-title">Hair Couture</h3>
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <div class="item-info">
+                                <span class="item-name">Advanced Hair Cut &amp; Styling</span>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-info">
+                                <span class="item-name">Global Hair Coloring (Premium)</span>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-info">
+                                <span class="item-name">Keratin / Smoothening Treatment</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Category 2: Skin & Glow -->
+                <div class="menu-category reveal-on-scroll">
+                    <h3 class="category-title">Skin &amp; Glow</h3>
+                    <ul class="menu-list">
+                        <li class="menu-item">
+                            <div class="item-info">
+                                <span class="item-name">Hydrafacial Luxury Therapy</span>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <div class="item-info">
+                                <span class="item-name">Organic Detoxing Facial</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Service Menu CTA -->
+            <div class="services-cta reveal-on-scroll">
+                <p class="cta-text">For detailed pricing, custom packages, and bookings, please contact our experts.</p>
+                <a href="https://wa.me/911234567890?text=Hi%20Glitz%20%26%20Glow%20Studio,%20I%20want%20to%20request%20your%20pricing%20menu%20for%20Hair%20and%20Skin%20services!"
+                    class="btn btn-whatsapp" target="_blank" rel="noopener noreferrer">Inquire Pricing on WhatsApp</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- HOW IT WORKS SECTION -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-subtitle">The Process</span>
+                <h2>Your Journey to Elegance</h2>
+            </div>
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card reveal-on-scroll">
+                    <div class="step-number">01</div>
+                    <h3 class="step-title">Connect on WhatsApp</h3>
+                    <p class="step-desc">Drop a message with your preferred services.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="step-card reveal-on-scroll">
+                    <div class="step-number">02</div>
+                    <h3 class="step-title">Consultation &amp; Quote</h3>
+                    <p class="step-desc">Our beauty experts will guide you with custom packages and pricing.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="step-card reveal-on-scroll">
+                    <div class="step-number">03</div>
+                    <h3 class="step-title">Studio Experience</h3>
+                    <p class="step-desc">Walk into our studio and experience luxury transformation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. STUDIO GALLERY & BRIDAL LOOKBOOK SECTION -->
+    <section id="bridal" class="gallery-section">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-subtitle">Exquisite Makeovers</span>
+                <h2>Studio Gallery &amp; Bridal Lookbook</h2>
+            </div>
+            <div class="lookbook-grid">
+                <!-- Image 1 -->
+                <div class="lookbook-card span-col-2 span-row-2 reveal-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1633681926022-84c23e8cb2d6?auto=format&fit=crop&q=80&w=800"
+                        alt="Luxury Salon Interior">
+                    <div class="card-label">01 / Luxury Salon Interior</div>
+                </div>
+                <!-- Image 2 -->
+                <div class="lookbook-card reveal-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1684868682581-4cac3af5b8d4?auto=format&fit=crop&q=80&w=800"
+                        alt="Bridal Makeover Close-up">
+                    <div class="card-label">02 / Bridal Glow</div>
+                </div>
+                <!-- Image 3 -->
+                <div class="lookbook-card span-row-2 reveal-on-scroll">
+                    <img src="https://plus.unsplash.com/premium_photo-1661668935701-2429eb4da878?auto=format&fit=crop&q=80&w=800"
+                        alt="Premium Hair Styling/Couture">
+                    <div class="card-label">03 / Hair Couture</div>
+                </div>
+                <!-- Image 4 -->
+                <div class="lookbook-card reveal-on-scroll">
+                    <img src="https://plus.unsplash.com/premium_photo-1664303146464-aacd85f5fd29?auto=format&fit=crop&q=80&w=800"
+                        alt="Aesthetic Skincare/Facial">
+                    <div class="card-label">04 / Skincare Therapy</div>
+                </div>
+                <!-- Image 5 -->
+                <div class="lookbook-card span-col-2 reveal-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1610276347459-825713e28145?auto=format&fit=crop&q=80&w=800"
+                        alt="Elegant Bridal Jewelry/Dupatta Draping">
+                    <div class="card-label">05 / Bridal Lookbook</div>
+                </div>
+                <!-- Image 6 -->
+                <div class="lookbook-card reveal-on-scroll">
+                    <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?auto=format&fit=crop&q=80&w=800"
+                        alt="Nail Art / Premium Details">
+                    <div class="card-label">06 / Premium Nails</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. TESTIMONIALS SECTION -->
+    <section id="reviews" class="testimonials">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-subtitle">Kind Words</span>
+                <h2>What Our Guests Say</h2>
+            </div>
+            <!-- Horizontal block enclosing exactly 10 customer review cards -->
+            <div class="reviews-container reveal-on-scroll">
+                <div class="reviews-track">
+                    <!-- Card 1 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Best hair spa in town! My hair feels incredibly soft, and the therapist
+                            was
+                            absolutely wonderful."</p>
+                        <div class="review-author">— Ananya Sharma</div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Flawless bridal makeup! Certified celebrity artists made me feel
+                            absolutely
+                            royal on my wedding day."</p>
+                        <div class="review-author">— Priyanka Sen</div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"The Hydrafacial Luxury Therapy gave my skin an instant, gorgeous glow.
+                            Highly recommend it!"</p>
+                        <div class="review-author">— Ritu Verma</div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Amazing Global Hair Coloring! They matched the shade perfectly and used
+                            high-quality premium products."</p>
+                        <div class="review-author">— Sneha Das</div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Outstanding service. The Advanced Hair Cut was tailored perfectly to my
+                            face
+                            shape. Great job!"</p>
+                        <div class="review-author">— Vikram Singh</div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"The organic detoxing facial is extremely relaxing and leaves the skin
+                            feeling clean and refreshed."</p>
+                        <div class="review-author">— Megha Gupta</div>
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"I got my Keratin treatment here. Incredible results that lasted for
+                            months!
+                            Best experience."</p>
+                        <div class="review-author">— Tanvi Roy</div>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Superb customer service and attention to detail. Every visit feels like
+                            a
+                            high-end luxury retreat."</p>
+                        <div class="review-author">— Ishita Paul</div>
+                    </div>
+                    <!-- Card 9 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Excellent draping and makeup services! They kept my natural aesthetic
+                            intact
+                            while elevating the look."</p>
+                        <div class="review-author">— Aditi Mishra</div>
+                    </div>
+                    <!-- Card 10 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"A truly premium studio in Bhopal. Clean, professional, and completely
+                            worth
+                            every rupee."</p>
+                        <div class="review-author">— Rashmi Dwivedi</div>
+                    </div>
+
+                    <!-- Duplicated Cards for Seamless Infinite Loop -->
+                    <!-- Card 1 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Best hair spa in town! My hair feels incredibly soft, and the therapist
+                            was
+                            absolutely wonderful."</p>
+                        <div class="review-author">— Ananya Sharma</div>
+                    </div>
+                    <!-- Card 2 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Flawless bridal makeup! Certified celebrity artists made me feel
+                            absolutely
+                            royal on my wedding day."</p>
+                        <div class="review-author">— Priyanka Sen</div>
+                    </div>
+                    <!-- Card 3 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"The Hydrafacial Luxury Therapy gave my skin an instant, gorgeous glow.
+                            Highly recommend it!"</p>
+                        <div class="review-author">— Ritu Verma</div>
+                    </div>
+                    <!-- Card 4 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Amazing Global Hair Coloring! They matched the shade perfectly and used
+                            high-quality premium products."</p>
+                        <div class="review-author">— Sneha Das</div>
+                    </div>
+                    <!-- Card 5 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Outstanding service. The Advanced Hair Cut was tailored perfectly to my
+                            face
+                            shape. Great job!"</p>
+                        <div class="review-author">— Vikram Singh</div>
+                    </div>
+                    <!-- Card 6 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"The organic detoxing facial is extremely relaxing and leaves the skin
+                            feeling clean and refreshed."</p>
+                        <div class="review-author">— Megha Gupta</div>
+                    </div>
+                    <!-- Card 7 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"I got my Keratin treatment here. Incredible results that lasted for
+                            months!
+                            Best experience."</p>
+                        <div class="review-author">— Tanvi Roy</div>
+                    </div>
+                    <!-- Card 8 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Superb customer service and attention to detail. Every visit feels like
+                            a
+                            high-end luxury retreat."</p>
+                        <div class="review-author">— Ishita Paul</div>
+                    </div>
+                    <!-- Card 9 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"Excellent draping and makeup services! They kept my natural aesthetic
+                            intact
+                            while elevating the look."</p>
+                        <div class="review-author">— Aditi Mishra</div>
+                    </div>
+                    <!-- Card 10 -->
+                    <div class="review-card">
+                        <span class="quote-icon">&ldquo;</span>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                        <p class="review-text">"A truly premium studio in Bhopal. Clean, professional, and completely
+                            worth
+                            every rupee."</p>
+                        <div class="review-author">— Rashmi Dwivedi</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HYGIENE & SAFETY STANDARDS -->
+    <section class="safety-standards">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-subtitle">Gold Standard Care</span>
+                <h2>Our Compromise on Safety</h2>
+            </div>
+            <div class="safety-grid">
+                <!-- Point 1 -->
+                <div class="safety-card reveal-on-scroll">
+                    <div class="safety-info">
+                        <h3><span class="safety-check">✓</span> 100% Sanitized Tools</h3>
+                        <p>All equipment is UV sterilized after every single use.</p>
+                    </div>
+                </div>
+                <!-- Point 2 -->
+                <div class="safety-card reveal-on-scroll">
+                    <div class="safety-info">
+                        <h3><span class="safety-check">✓</span> Disposable Essentials</h3>
+                        <p>We strictly use single-use premium towels, sheets, and capes.</p>
+                    </div>
+                </div>
+                <!-- Point 3 -->
+                <div class="safety-card reveal-on-scroll">
+                    <div class="safety-info">
+                        <h3><span class="safety-check">✓</span> Premium International Brands Only</h3>
+                        <p>Zero local alternatives, ensuring skin-friendly premium results.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-subtitle">Common Inquiries</span>
+                <h2>Frequently Asked Questions</h2>
+            </div>
+            <div class="faq-accordion reveal-on-scroll">
+                <!-- Q1 -->
+                <details class="faq-item">
+                    <summary>Do I need to book an appointment in advance?</summary>
+                    <div class="faq-content">
+                        <p>Yes, we recommend booking 1-2 days prior for regular services and at least 1 Week for bridal
+                            makeovers.</p>
+                    </div>
+                </details>
+                <!-- Q2 -->
+                <details class="faq-item">
+                    <summary>Do you offer home services for bridal makeup?</summary>
+                    <div class="faq-content">
+                        <p>Yes, we provide on-site bridal services for your convenience on your big day.</p>
+                    </div>
+                </details>
+                <!-- Q3 -->
+                <details class="faq-item">
+                    <summary>Which premium products do you use?</summary>
+                    <div class="faq-content">
+                        <p>We use international professional brands like M.A.C, Kryolan, and L'Oréal Professionnel.</p>
+                    </div>
+                </details>
+                <!-- Q4 -->
+                <details class="faq-item">
+                    <summary>Can I get a customized beauty package?</summary>
+                    <div class="faq-content">
+                        <p>Absolutely! Contact us via WhatsApp to create a package tailored to your needs.</p>
+                    </div>
+                </details>
+                <!-- Q5 -->
+                <details class="faq-item">
+                    <summary>How can I find out the exact service prices?</summary>
+                    <div class="faq-content">
+                        <p>Since we provide bespoke services, please click the "Contact Us" button to get our latest
+                            detailed brochure.</p>
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. CONTACT & TIMINGS SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header reveal-on-scroll">
+                <span class="section-subtitle">Join Us</span>
+                <h2>Visit the Studio</h2>
+            </div>
+            <div class="contact-grid">
+                <!-- Operational Timings -->
+                <div class="contact-block reveal-on-scroll">
+                    <h3>Operational Hours</h3>
+                    <ul class="contact-details">
+                        <li>
+                            <span class="contact-label">Working Days</span>
+                            <span class="contact-value">Open All Days</span>
+                        </li>
+                        <li>
+                            <span class="contact-label">Studio Hours</span>
+                            <span class="contact-value">10:00 AM – 8:30 PM</span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Studio Location & Details -->
+                <div class="contact-block reveal-on-scroll">
+                    <h3>Contact Information</h3>
+                    <ul class="contact-details">
+                        <li>
+                            <span class="contact-label">Studio Address</span>
+                            <span class="contact-value">Shop No. 14, DB City Mall, Arera Hills, Bhopal, Madhya Pradesh
+                                462011</span>
+                        </li>
+                        <li>
+                            <span class="contact-label">Phone Booking</span>
+                            <span class="contact-value">
+                                <a href="tel:+911234567890">+91 12345 67890</a>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="contact-label">Email Support</span>
+                            <span class="contact-value">
+                                <a href="mailto:hello@glitzandglow.com">hello@glitzandglow.com</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. FOOTER -->
+    <footer>
+        <div class="container footer-content">
+            <div>
+                <div class="footer-brand">GLITZ &amp; GLOW STUDIO</div>
+                <div class="footer-slogan">Unveil Your Elegance</div>
+            </div>
+
+            <ul class="footer-socials">
+                <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+                <li><a href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
+                <li><a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">Pinterest</a></li>
+            </ul>
+
+            <div class="footer-copy">
+                &copy; 2026 Glitz &amp; Glow Studio. All Rights Reserved.
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
